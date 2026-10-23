@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": { "item": "minecraft:glass_pane" },
+    "A": { "item": "minecraft:amethyst_shard" },
+    "I": { "item": "minecraft:iron_ingot" }
+  },
+  "pattern": ["GGG", "GAG", "III"],
+  "result": { "id": "the_echo:echo_mirror", "count": 1 }
+}

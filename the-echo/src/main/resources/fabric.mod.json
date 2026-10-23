@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "the_echo",
+  "version": "${version}",
+  "name": "El Eco / The Echo",
+  "description": "Una entidad que aprende de ti y suplanta tu propio mundo. Al principio todo parece normal.",
+  "authors": ["Tú"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.theecho.TheEcho"],
+    "client": ["com.theecho.client.TheEchoClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

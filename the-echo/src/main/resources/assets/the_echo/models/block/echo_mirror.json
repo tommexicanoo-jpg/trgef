@@ -1,0 +1,16 @@
+{
+  "textures": { "0": "the_echo:block/echo_mirror", "particle": "the_echo:block/echo_mirror" },
+  "elements": [
+    {
+      "from": [1, 0, 14], "to": [15, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#0" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#0" },
+        "east":  { "uv": [0, 0, 2, 16],  "texture": "#0" },
+        "west":  { "uv": [0, 0, 2, 16],  "texture": "#0" },
+        "up":    { "uv": [0, 0, 16, 2],  "texture": "#0" },
+        "down":  { "uv": [0, 14, 16, 16], "texture": "#0" }
+      }
+    }
+  ]
+}

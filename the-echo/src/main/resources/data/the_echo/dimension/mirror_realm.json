@@ -1,0 +1,16 @@
+{
+  "type": "the_echo:mirror_realm",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:deep_dark",
+      "features": false,
+      "lakes": false,
+      "layers": [
+        { "block": "minecraft:bedrock", "height": 1 },
+        { "block": "minecraft:deepslate", "height": 3 }
+      ],
+      "structure_overrides": []
+    }
+  }
+}
